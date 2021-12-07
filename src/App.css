@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@500&display=swap');
+*{
+  font-family: 'Kumbh Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.productpage{
+  z-index: -1;
+  position: absolute;
+}
+.nav-link{
+  font-weight:400;
+}
+.shortHead{
+  color: hsl(26, 100%, 55%);
+}
+.boldHead{
+  font-weight: 700;
+}
+.longHead{
+  font-size: 16px;
+}
+.mainimg{
+  width:350px;
+  height:350px;
+  border-radius:14px ;
+  cursor: pointer;
+}
+.percent{
+  background-color:hsla(26, 100%, 55%, 0.466);
+ width: 35px;
+  height: 20px;
+  border-radius:3px;
+}
+.percent p{
+  color: hsl(26, 96%, 52%);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.priceCut{
+  color: gray;
+  text-decoration: line-through;
+  font-size: 12px;
+
+}
+.button button{
+  background-color:hsl(26, 96%, 52%);
+  color: white;
+  border: none;
+  border-radius: 4px;
+    height: 41px;
+    width: 214px;
+    padding-top: 10px;
+    margin-left: 15%;
+    font-weight: 600;
+    box-shadow: 0px 37px 26px -15px hsl(26, 96%, 52%);
+  }
+.Img1,.Img2,.Img3,.Img4{
+width: 85px;
+height: 12vh;
+border-radius: 12px;
+cursor: pointer;
+
+}
+.Image1,.Image2,.Image3,.Image4{
+  z-index: 1;
+border-radius: 12px;
+}
+/* .Img1{
+  opacity: 0.5;
+} */
+.allimg {
+  z-index: -1;
+  position: absolute;
+  margin-top: 30%;
+}
+.allimge {
+  position: absolute;
+  margin-top: 43%;
+  
+}
+.counter{
+  background-color: rgba(128, 128, 128, 0.096);
+  
+  border-radius: 12px;
+  width: 140px;
+}
+.line{
+color: white;
+width: 20px;
+font-size: 26px;
+margin-left: 16px;
+}
+
+.sign{
+  color:hsl(26, 100%, 55%);
+  font-size: 23px;
+    font-weight: 500;
+    margin-left: 17px;
+}
+.signe{
+  color:hsl(26, 100%, 55%);
+  font-size: 23px;
+    font-weight: 500;
+}
+.number{
+  margin-top: 8px;
+}
+.container{
+  margin-left: 200px;
+
+}
+.containera{
+  margin-left: 120px;
+}
+.cartuser{
+  margin-left: 30% !important;
+}
+.navbar{
+  margin-left: 200px;
+
+}
+.Bottomline{
+  width: 65%;
+  height: 1px;
+    background-color: #c0bbbb;
+    margin-left: 100px;
+}
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.733); /* Black background with opacity */
+  z-index: -1; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+.slideImg{
+  width: 40%;
+  border-radius: 15px;
+
+}
+
+.mainslider{
+  position: absolute;
+  margin-left: 40%;
+}
+.carousel-control-prev{
+margin-left: -6% !important;
+}
+.carousel-control-next{
+margin-left: -60% !important;
+}
+.containeraa{
+  display: none;
+}
+.slidere{
+  display: none !important;
+}
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.next {
+  background-color: #ffffff;
+  color: rgb(12, 12, 12);
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.round {
+  border-radius: 50%;
+}
+.indicator{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 117%;
+  position: absolute;
+  margin: 155px 0 0 -354px;
+}
+.indicatora{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  margin-top: -61%;
+}
+@media screen and (max-width: 500px) {
+  .containera{
+    margin-left: 0;
+  }
+.mainimg{
+  border-radius: 0px;
+}
+  .containeraa{
+    display: none;
+  }
+  .container{
+    margin-left: 0;
+  
+  }
+  .navbar-toggler-icon{
+ 
+  }
+  .allimg {
+    display: none !important;
+  }
+  .button button{
+    width: 160px;
+
+  }
+  .cartuser {
+    margin-left: 74% !important;
+    margin-top: -52px;
+}
+.cartSvge{
+  margin-bottom:-40px
+}
+.mainimg{
+  display: none;
+}
+.slidere{
+  display: block;
+}
+}
+
